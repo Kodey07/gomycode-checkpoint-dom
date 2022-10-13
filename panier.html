@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkpoint DOM</title>
+    <link rel="stylesheet" href="panier.css">
+</head>
+
+
+<body onload="loadBody()">
+    
+    <header>
+
+        
+    </header>
+
+ 
+        <div class="container_flex">
+
+            <div class="shopper">
+
+                <h1 id="title">shopping cart</h1>
+
+                <table class="table">
+
+                    <thead>
+
+                        <tr>
+                            <th>products</th>
+
+                            <th>name</th>
+                            <th>price</th>
+                            <th>quantity</th>
+                            <th>subtotal</th>
+                            <th>to delete</th>
+                        </tr>
+
+                    </thead>
+
+
+                    <tbody class="all_products">
+
+                        <tr>
+
+                        </tr>
+
+                    </tbody>
+
+
+                    <tfoot>  
+                        <tr>
+                           <td> <input type="text" id="name_product" placeholder="Nom de l'article" contenteditable></td>
+                           <td><input type="number" step="1" id="price_product" value="2500" contenteditable></td>
+                           <td></td>
+                            <td></td>
+                           <td></td>  
+                           <td><button>Ajouter un article</button></td>  
+                        </tr>
+                       
+                    </tfoot>
+               
+
+                </table>
+
+                <h2>total: <span id="total_display">0 francs CFA.</span></h2>
+
+            </div>
+
+        </div>
+
+
+    <footer>
+
+        <p>Copyright Edwige Silué. Checkpoint DOM</p>
+
+    </footer>
+
+</body>
+</html>

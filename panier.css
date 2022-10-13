@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+	background-color: hsl(233, 47%, 7%);
+	width: 100%;
+	margin: 0; 
+}
+
+.container_flex {
+	width: 90%;
+	margin: auto;
+}
+
+.shopper {
+	width: 80%;
+	border-radius: 10px;
+	padding: 20px;
+	margin: auto;
+}
+
+h1 {
+	text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+
+
+p, button, input {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 1em;
+	padding: 5px 10px;
+	margin: 1px;
+	cursor: pointer;
+}
+.qty-minus{
+	border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+.subtotal{
+	color: #269cd1;
+    font-weight: bold;
+}
+
+.qty{
+	    height: 3rem;
+    width: 6rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 1rem;
+    padding: .3rem;
+	
+}
+.qty-plus{
+	border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+
+table{
+    /* border: solid red;
+    width: 50%;
+
+    margin: 0 auto;
+    border-spacing: 0 10px;
+    text-align: center; */
+
+    width: 100%;
+	text-align: left;
+	background-color: #fff;
+	color: rgba(15, 15, 15, 0.5);
+
+}
+
+table tbody {
+    background-color: #fff;
+	color: rgba(15, 15, 15, 0.5);
+}
+
+table, th, td {
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.article--name{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	font-size: 0.75rem;
+}
+
+#add_button{
+
+    background: #269cd1;
+    border: 2px solid #269cd1;
+    margin: 1rem 0rem;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: .8rem;
+    font-weight: bold;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+
+tbody button {
+	color: white;
+	background-color: rgba(94, 91, 91, 0.5);
+	border: none;
+	border-radius: 3px;
+	transition: all .3s ease-in-out;
+}
+
+tbody button:hover {
+	background-color: #269cd1;
+	transform:scale(1.1);
+}
+
+.shopper h2{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.table tfoot{
+ 
+}
+
+input[type="number"] {
+	width: 50px;
+}
+
+#price_product {
+	width: 100px;
+}
+
+#total_display{
+	color: #df52e0;
+}
+
+
+.flex {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 5em;
+}
+
+.remove{
+	color : red;
+	cursor: pointer;
+	
+}
+
+
+footer{
+    border: solid;
+    text-align: center;
+    height: 50px;
+    background-color: #000;
+    margin-top: 5%;
+}
+
+footer p{
+    margin: 10px 0;
+    color: #fff;
+}
